@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'demo';
+firstName='Bilal';
+lastName='Ahmed';
 constructor(){
 console.log('constructor..');
 }
