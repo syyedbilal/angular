@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgForm } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
@@ -8,11 +8,5 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent {
   title = 'demo';
-
-
-  constructor(){
-  
-  }
-
 
 }
