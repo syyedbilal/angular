@@ -23,4 +23,8 @@ displayFirstName(){
 getUserStatus(){
   this.status=false;
 }
+
+greetPerson(){
+  alert('Successful')
+}
 }
