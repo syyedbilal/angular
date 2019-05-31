@@ -13,5 +13,8 @@ lastName='Ahmed';
 constructor(){
 console.log('constructor..');
 }
+displayFirstName(){
+  return this.firstName;
+}
 
 }
