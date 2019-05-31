@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'demo';
 firstName='Bilal';
-lastName='Ahmed';
+lastName:string;
 status:boolean;
 
 constructor(){
@@ -24,7 +24,9 @@ getUserStatus(){
   this.status=false;
 }
 
-greetPerson(){
-  alert('Successful')
-}
+// greetPerson(){
+//   alert('Successful')
+// }
+
+
 }
