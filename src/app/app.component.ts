@@ -21,6 +21,6 @@ displayFirstName(){
 }
 
 getUserStatus(){
-  this.status=true;
+  this.status=false;
 }
 }
