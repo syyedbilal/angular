@@ -1,5 +1,10 @@
+<h1 *ngIf="status; else not Active">{{firstName}}</h1>
+<ng-template #not Active>
+  <p>Not Active</p>
+</ng-template>
+<hr>
 <input [(ngModel)]="lastName" type="text">
-
+{{lastName}}
 
 <br><br>
 <button (click)="greetPerson()">Click</button>
