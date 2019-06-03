@@ -1,4 +1,8 @@
-<h1 *ngIf="status; else not Active">{{firstName}}</h1>
+<ul>
+  <li *ngFor="post of posts">{{post.title}</li>
+</ul>
+
+<!-- <h1 *ngIf="status; else not Active">{{firstName}}</h1>
 <ng-template #not Active>
   <p>Not Active</p>
 </ng-template>
@@ -20,4 +24,4 @@
 {{city ? city : 'No city' }}
 <br>
 <hr>
-{{ displayFirstName() }} 
+{{ displayFirstName() }}  -->

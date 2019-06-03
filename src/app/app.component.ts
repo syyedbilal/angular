@@ -11,6 +11,7 @@ export class AppComponent {
 firstName='Bilal';
 lastName:string;
 status:boolean;
+posts:object[];
 
 constructor(){
 console.log('constructor..');
@@ -21,7 +22,14 @@ displayFirstName(){
 }
 
 getUserStatus(){
-  this.status=false;
+  this.posts=[
+{title: 'Post 1'},
+{title: 'Post 2'},
+{title: 'Post 3'},
+{title: 'Post 4'},
+{title: 'Post 5'}
+  ];
+  // this.status=false;
 }
 
 // greetPerson(){
