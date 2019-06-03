@@ -15,6 +15,13 @@ posts:object[];
 
 constructor(){
 console.log('constructor..');
+this.posts=[
+  {title: 'Post 1'},
+  {title: 'Post 2'},
+  {title: 'Post 3'},
+  {title: 'Post 4'},
+  {title: 'Post 5'}
+    ];
 this.getUserStatus();
 }
 displayFirstName(){
@@ -22,14 +29,7 @@ displayFirstName(){
 }
 
 getUserStatus(){
-  this.posts=[
-{title: 'Post 1'},
-{title: 'Post 2'},
-{title: 'Post 3'},
-{title: 'Post 4'},
-{title: 'Post 5'}
-  ];
-  // this.status=false;
+ this.status=false;
 }
 
 // greetPerson(){
