@@ -24,7 +24,7 @@
             ],
             "styles": [
               "src/styles.css",
-             "f:/GITHUB/Engagement360/Production/angular/node_modules/bootstrap/dist/css/bootstrap.css"
+             "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [ ],
             "es5BrowserSupport": true
