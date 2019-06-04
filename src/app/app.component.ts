@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +12,10 @@ firstName='Bilal';
 lastName:string;
 status:boolean;
 posts:object[];
+user={
+  username:'',
+  password:''
+};
 
 constructor(){
 console.log('constructor..');
@@ -35,8 +39,11 @@ getUserStatus(){
 // greetPerson(){
 //   alert('Successful')
 // }
-onSubmit(theForm){
-  console.log("theForm");
+onSubmit(theForm:NgForm){
+  this.user.username=theForm.value.username;
+  this.user.password=theForm.value.password;
+  console.log(this.user);
+  // this.http.get('/post','this.user');
 }
 
 }
