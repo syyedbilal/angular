@@ -35,8 +35,8 @@ getUserStatus(){
 // greetPerson(){
 //   alert('Successful')
 // }
-onSubmit(){
-  console.log("submitted");
+onSubmit(theForm){
+  console.log("theForm");
 }
 
 }
