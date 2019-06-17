@@ -39,10 +39,10 @@ getUserStatus(){
 // greetPerson(){
 //   alert('Successful')
 // }
-onSubmit(theForm:NgForm){
-  this.user.username=theForm.value.username;
-  this.user.password=theForm.value.password;
-  console.log(this.user);
+onSubmit(){
+  //this.user.username=theForm.value.username;
+  //this.user.password=theForm.value.password;
+  console.log('submitted');
   // this.http.get('/post','this.user');
 }
 
