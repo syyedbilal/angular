@@ -1,5 +1,5 @@
 
-<form (ngSubmit)="onSubmit(theForm)" #theForm>
+<form (ngSubmit)="onSubmit(theForm)" #theForm="ngForm">
   <div class="form-group">
     <label for="username">UserName</label>
     <input name="username" type="text" placeholder="Enter username">
