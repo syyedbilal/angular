@@ -39,10 +39,10 @@ getUserStatus(){
 // greetPerson(){
 //   alert('Successful')
 // }
-onSubmit(){
+onSubmit(theForm){
   //this.user.username=theForm.value.username;
   //this.user.password=theForm.value.password;
-  console.log('submitted');
+  console.log(theForm);
   // this.http.get('/post','this.user');
 }
 
