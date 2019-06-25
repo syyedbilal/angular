@@ -36,9 +36,7 @@ getUserStatus(){
  this.status=false;
 }
 
-// greetPerson(){
-//   alert('Successful')
-// }
+
 onSubmit(theForm: NgForm){
   console.log(theForm);
   
