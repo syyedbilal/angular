@@ -3,6 +3,7 @@ import { NgModule, Component } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './home/home.component';
 
 // const appRoutes : Routes={
 
@@ -12,6 +13,7 @@ import { RouterModule, Routes } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
